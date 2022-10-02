@@ -1,0 +1,91 @@
+  /*-- Another design drag & drop design --*/
+  #dropZone {
+    position: relative;
+    border:2px dashed #000;  
+    padding: 100px;
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+#dropZone  p, .heading-paragraph{
+    color: gray;
+}
+#dropZone #fileupload{
+    align-items: center;
+}
+#files {
+    border: 1px dotted #0088cc;
+    padding: 20px;
+    width: 200px;
+    display: none;
+}
+.file_drag_area  
+{  
+    width:600px;  
+    border:2px dashed #ccc;  
+    text-align:center;  
+    font-size:24px;  
+    margin-bottom: 10px;
+}  
+.file_drag_over{  
+    color:#000;  
+    border-color:#000;  
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 600px;
+    border: 1px solid #000;
+  }
+  
+  td, th {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /*tr:nth-child(even) {
+    background-color: #dddddd;
+  }*/
+  .form-hol{
+    width: 600px;
+    padding: 10px;
+  }
+  .form-hol label{
+    margin: 0px;
+  }
+  .form-hol input, .form-hol select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0088cc;
+    border-radius: 5px;
+  }
+  .form-hol h3{
+    margin: 0px;
+    padding: 0px;
+    color: #0088cc;
+  }
+  .form-hol textarea{
+    width: 100%;
+    border: 1px solid #0088cc;
+  }
+  .next-btn{
+    border: 1px solid #0088cc;
+    background: #0088cc;
+    color: #ffff;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .back-btn{
+    border: 1px solid red;
+    background: red;
+    color: #ffff;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .step-two, .step-three{
+    display: none;
+  }

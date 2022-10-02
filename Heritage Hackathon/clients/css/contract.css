@@ -1,0 +1,30 @@
+.contract-form-holder{
+    padding: 10px;
+    width: 800px;
+}
+.contract-form-holder label{
+    color: black;
+    margin: 0px;
+}
+.contract-form-holder select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+}
+.contract-form-holder #description{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+}
+.contract-form-holder .contract-btn{
+    padding: 5px;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: #ffff;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.spinner-border{
+    display: none;
+}
